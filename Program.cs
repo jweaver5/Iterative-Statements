@@ -14,11 +14,13 @@ namespace Iterative_Statements
             {
                 for (int i = 0; i < num + 1; i++)
                     Console.WriteLine("{0}. You entered an even number.", i + 1);
+                // Output for Even numbers
             }
             else
             {
                 for (int i = 0; i < num - 1; i++)
                     Console.WriteLine("{0}. You entered an odd number.", i + 1);
+                // Output for Odd numbers
             }
         }
     }
